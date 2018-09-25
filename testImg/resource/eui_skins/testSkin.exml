@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="testSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="_createImg100" label="100" x="23" bottom="25"/>
+	<e:Button id="_createImg500" label="500" x="150" bottom="25"/>
+	<e:Button id="_createImg1000" label="1000" x="275" bottom="25"/>
+	<e:Button id="_createImg5000" label="5000" x="392" bottom="25"/>
+	<e:Button id="_createImg10000" label="10000" x="513" bottom="25"/>
+	<e:Label id="_num" text="当前数量:0" y="25" right="46" textColor="0xc9dd82"/>
+</e:Skin>
