@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pass3lookSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group left="0" top="0" bottom="0" right="0">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1" source="bg_pass3_bg_png"/>
+		<e:Image id="_act_qe" x="537.5" y="196" scaleX="1" scaleY="1" source="teqpass3_json.act_pass3_qe0"/>
+	</e:Group>
+</e:Skin>

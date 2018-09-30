@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bottomSkin" width="498" height="220" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" bottom="0" right="0">
+		<e:Image source="teq_json.img_money_bg" x="88" y="81.5" scaleX="1" scaleY="1"/>
+		<e:Image source="teq_json.img_penguin_1" x="-17" y="1" scaleX="1" scaleY="1"/>
+		<e:Image id="_money0" source="teq_json.img_money" x="173" y="97" scaleX="1" scaleY="1"/>
+		<e:Image source="teq_json.img_money" x="281" y="97" id="_money1" scaleX="1" scaleY="1"/>
+		<e:Image source="teq_json.img_money" x="389" y="97" id="_money2" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

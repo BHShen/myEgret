@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pass3_0Skin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="fplayTween">
+			<tween:TweenItem target="{_img_hand}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1135.5}" y="{652}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" x="{1120.5}" y="{625}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{1135.5}" y="{652}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" x="{1120.5}" y="{625}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{1135.5}" y="{652}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" x="{1120.5}" y="{625}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{1135.5}" y="{652}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" x="{1120.5}" y="{625}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{1135.5}" y="{652}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="pplayTween">
+			<tween:TweenItem target="{_img_hand}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" y="{652}" x="{203.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" x="{188.5}" y="{625}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{203.5}" y="{652}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" x="{188.5}" y="{625}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{203.5}" y="{652}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" x="{188.5}" y="{625}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{203.5}" y="{652}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}" x="{188.5}" y="{625}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{203.5}" y="{652}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group left="0" top="0" right="0" bottom="0">
+		<e:Image source="img_pass3_bg_png" x="0" y="0"/>
+		<e:Image id="_imgwt_p" source="teqpass3_json.img_wtP0" x="310" bottom="106"/>
+		<e:Image id="_imgwt_f" source="teqpass3_json.img_wtF0" x="845" bottom="105"/>
+		<e:Image id="_img_qe" source="teqpass3_json.img_pass3_qe_bg" x="521" y="242"/>
+		<e:Image id="_img_people_f" source="teqpass3_json.img_pass3_f_ready" x="877" y="359"/>
+		<e:Image id="_img_people_p" source="teqpass3_json.img_pass3_p_ready" x="337" y="363"/>
+		<e:Group id="_groupPlayP" width="200" height="258" x="291" y="321" anchorOffsetY="0" locked="true">
+			<ns1:UINote id="_notep" x="-41" y="-12" skinName="noteSkin" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="_groupPlayF" width="139" height="251" x="786" anchorOffsetY="0" y="335">
+			<ns1:UINote id="_notef" x="-33" y="-16" skinName="noteSkin" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="_group_note" left="0" top="0" right="0" bottom="0" locked="true">
+			<ns1:UINote id="_note" x="392" y="103" skinName="noteSkin"/>
+		</e:Group>
+		<e:Image id="_nod_f" source="teqpass3_json.img_f_nod1" horizontalCenter="270" bottom="9" scaleY="1"/>
+		<e:Image id="_nod_p" source="teqpass3_json.img_p_nod1" horizontalCenter="-263" verticalCenter="137"/>
+		<e:Image id="_btn_f" source="teqpass3_json.btn_pass3_f_up" width="175" height="176" horizontalCenter="468.5" verticalCenter="260"/>
+		<e:Image id="_btn_p" source="teqpass3_json.btn_pass3_p_up" width="175" height="176" horizontalCenter="-467.5" verticalCenter="260"/>
+		<e:Image id="_img_hand" source="teqpass3_json.img_pass3_hand" x="1179.5" y="430.5" touchEnabled="false" visible="false"/>
+		<ns1:UIPass3look id="_passLook" x="0" y="0" skinName="pass3lookSkin" visible="false"/>
+		<e:Image source="btn_home_png" x="48" y="29" id="_btn_home"/>
+	</e:Group>
+</e:Skin>

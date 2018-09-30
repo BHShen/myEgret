@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="playSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="_btnTween">
+			<tween:TweenItem target="{_btn_play}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1500">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="balloonTween">
+			<tween:TweenItem target="{_img_balloon1}">
+				<tween:Set/>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{-3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_img_balloon2}">
+				<tween:Set/>
+				<tween:To duration="1000">
+				<tween:props>
+					<e:Object rotation="{-3}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+				<tween:props>
+					<e:Object rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+				<tween:props>
+					<e:Object rotation="{3}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_img_balloon3}">
+				<tween:Set/>
+				<tween:To duration="1000">
+				<tween:props>
+					<e:Object rotation="{-3}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+				<tween:props>
+					<e:Object rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+				<tween:props>
+					<e:Object rotation="{3}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		
+	</w:Declarations>
+	<e:Image source="bg_loadingbg_png" x="0" y="0"/>
+	<e:Image id="_img_title" source="teq_json.title_loading" x="684" y="338" anchorOffsetX="428" anchorOffsetY="165"/>
+	<e:Image id="_img_balloon1" source="teq_json.img_balloon_1" x="190.5" anchorOffsetX="108.5" anchorOffsetY="287" y="750"/>
+	<e:Image id="_img_balloon2" source="teq_json.img_balloon_3" x="404.5" y="136" anchorOffsetX="31.5" anchorOffsetY="93"/>
+	<e:Image id="_img_balloon3" source="teq_json.img_balloon_2" x="1108.5" y="403" anchorOffsetX="201.5" anchorOffsetY="403"/>
+	<e:Image id="_btn_play" source="teq_json.btn_play" x="658" y="591.5" anchorOffsetX="99" anchorOffsetY="89.5"/>
+	<e:Group id="_group_play" width="200" height="200" x="562" y="496"/>
+</e:Skin>

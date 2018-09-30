@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pass2GameOverSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="moneyTween">
+			<tween:TweenItem target="{_money3}">
+				<tween:Set/>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{780}" y="{350.5}" scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}" x="{1025}" y="{75}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_money4}">
+				<tween:Wait duration="500"/>
+				<tween:Set/>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{837}" y="{332}" scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object x="{1025}" y="{75}" scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_money5}">
+				<tween:Wait duration="1000"/>
+				<tween:Set/>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object x="{837}" y="{332}" scaleX="{0.8}" scaleY="{0.8}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object x="{1025}" y="{75}" scaleX="{0}" scaleY="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group left="0" top="0" bottom="0" right="0" x="0" y="0" scaleX="1" scaleY="1">
+		<e:Image source="teq_json.img_money_bg" x="450" y="610.5" scaleX="1" scaleY="1"/>
+		<e:Image source="teq_json.img_penguin_1" x="345" y="530" scaleX="1" scaleY="1"/>
+		<e:Image id="_money0" source="teq_json.img_money" x="535" y="626" scaleX="1" scaleY="1"/>
+		<e:Image id="_money1" source="teq_json.img_money" x="643" y="626" scaleX="1" scaleY="1"/>
+		<e:Image id="_money2" source="teq_json.img_money" x="751" y="626" scaleX="1" scaleY="1"/>
+		<e:Image id="_money3" source="teq_json.img_money" x="535" y="626" scaleX="1" scaleY="1"/>
+		<e:Image id="_money4" source="teq_json.img_money" x="643" y="626" scaleX="1" scaleY="1"/>
+		<e:Image id="_money5" source="teq_json.img_money" x="751" y="626" scaleX="1" scaleY="1"/>
+		<e:Image id="_img_box" x="963" y="0" scaleX="1" scaleY="1" source="teqPass2_json.img_pass2_box"/>
+	</e:Group>
+</e:Skin>

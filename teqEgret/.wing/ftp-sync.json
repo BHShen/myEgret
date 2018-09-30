@@ -1,0 +1,23 @@
+[
+    {
+        "name": "47.97.126.105",
+        "host": "47.97.126.105",
+        "user": "root",
+        "password": "shiguang2018!@#",
+        "port": "",
+        "protocol": "sftp",
+        "remotePath": "usr/share/nginx/html/teq/",
+        "passive": false,
+        "debug": false,
+        "privateKeyPath": null,
+        "ignoreDir": [
+            ".out/",
+            ".git/"
+        ],
+        "ignoreFileSuffix": [
+            "diff"
+        ],
+        "diffFile": "ftpdiff-1538139177355.diff",
+        "usediffFile": true
+    }
+]

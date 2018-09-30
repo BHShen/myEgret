@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pass1lookSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="_group" left="0" top="0" bottom="0" right="0">
+		<e:Image source="bg_todo_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="teq_json.word_u" x="561" y="265.5" scaleX="1" scaleY="1"/>
+		<e:Image source="teq_json.img_do" x="544" y="246" scaleX="1" scaleY="1"/>
+		<e:Image source="teq_json.img_hand" x="580" y="280" scaleX="1" scaleY="1"/>
+		<e:Image source="pass1_font_png" x="510" y="640"/>
+	</e:Group>
+</e:Skin>

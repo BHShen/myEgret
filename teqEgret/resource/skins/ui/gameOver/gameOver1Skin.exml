@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameOver1Skin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="overTween">
+			<tween:TweenItem target="{image}">
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object x="{-369}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_money}">
+				<tween:Wait duration="350"/>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{297}" y="{338}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_num}">
+				<tween:Wait duration="350"/>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{474}" x="{340}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_img_p}">
+				<tween:Wait duration="350"/>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{561}" y="{285.5}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_img_f}">
+				<tween:Wait duration="350"/>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object x="{877}" y="{264.5}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="bg_gamebg_png" x="0" y="0"/>
+	<e:Image id="_img_box" x="1087.5" y="0" scaleX="0.5" scaleY="0.5" source="teqPass2_json.img_pass2_box1"/>
+	<e:Image id="image" source="gameover_json.img_people_gril" x="62" y="89.5"/>
+	<e:Image id="_money" source="gameover_json.money_guang" x="480" y="239"/>
+	<e:Image id="_img_f" source="gameover_json.img_peopleF" x="931" y="171.5"/>
+	<e:Image id="_img_p" source="gameover_json.img_peopleP" x="667" y="182.5"/>
+	<e:Label id="_num" text="X0" y="375" fontFamily="Microsoft YaHei" size="40" x="523"/>
+</e:Skin>

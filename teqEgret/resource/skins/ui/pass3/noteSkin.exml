@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="noteSkin" width="319.5" height="310" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="noteTween">
+			<tween:TweenItem target="{img_note0}">
+				<tween:Set/>
+				<tween:Wait duration="500"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{img_note1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="500"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="500"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{img_note2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="500"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{img_note3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1500"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="500"/>
+				<tween:Set/>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group id="group" left="0" top="0" right="0" bottom="0">
+		<e:Group id="_group_note0" left="0" top="0" right="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image id="img_note0" scaleX="1" scaleY="1" horizontalCenter="53.75" verticalCenter="93" source="note_json.note0"/>
+			<e:Image id="img_note2" scaleX="1" scaleY="1" horizontalCenter="53.75" verticalCenter="-31" source="note_json.note6"/>
+		</e:Group>
+		<e:Group id="_group_note1" left="0" top="0" right="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image id="img_note1" scaleX="1" scaleY="1" horizontalCenter="-53.25" verticalCenter="31" source="note_json.note2"/>
+			<e:Image id="img_note3" scaleX="1" scaleY="1" horizontalCenter="-53.25" verticalCenter="-93" source="note_json.note5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

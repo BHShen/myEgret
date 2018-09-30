@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pass1_0Skin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="eyeTween">
+			<tween:TweenItem target="{_img_eye}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="2000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="500"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_img_eye1}">
+				<tween:Wait duration="500"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="2000"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="250"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="500"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="bg_gamebg_png" x="0" y="0"/>
+	<e:Image source="teq_json.img_bear_1" x="384" y="303" scaleX="-1"/>
+	<e:Label text="强音符号" x="545" y="671" fontFamily="SimHei" size="42"/>
+	<e:Label text="弱音符号" x="935" y="671" fontFamily="SimHei" size="42"/>
+	<e:Group id="_group_f" left="0" top="0" bottom="0" right="0">
+		<e:Image id="_img_f" x="503" y="268" source="teq_json.word_f2_2" scaleX="1" scaleY="1"/>
+		<e:Image id="_img_eye1" source="teq_json.img_eye" x="595" y="337" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_group_p" left="0" top="0" bottom="0" right="0">
+		<e:Image id="_img_p" source="teqPass2_json.img_pass2_word_p" x="1028.5" y="652" anchorOffsetY="374" anchorOffsetX="140.5" scaleX="1" scaleY="1"/>
+		<e:Image id="_img_eye" source="teq_json.img_eye" x="981" y="296" scaleX="1.2" scaleY="1.2"/>
+	</e:Group>
+	<e:Group id="_rightP" width="297" height="445" x="817.5" y="200" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="_rightF" width="297" height="445" x="421.5" y="215" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:UIPass1Look id="_passlook" x="0" y="0" skinName="pass1lookSkin" visible="false"/>
+    
+</e:Skin>

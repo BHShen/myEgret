@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameOver2Skin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image source="bg_gamebg_png" x="0" y="0"/>
+	<e:Rect left="0" top="0" right="0" bottom="0" alpha="0.4"/>
+	<e:Image id="_money" source="gameover_json.money_guang" x="297" y="338"/>
+	<e:Image id="_img_f" source="gameover_json.img_peopleF" x="877" y="264.5"/>
+	<e:Image id="_img_p" source="gameover_json.img_peopleP" x="561" y="285.5"/>
+	<e:Label id="_num" text="X0" y="474" fontFamily="Microsoft YaHei" size="40" horizontalCenter="-302"/>
+	<e:Image source="teq_json.title_loading" x="324.6" y="21.5" scaleX="0.8" scaleY="0.8"/>
+	<e:Image source="gameover_json.btn_jxsk" x="307" y="589"/>
+	<e:Image id="_rePlay" x="732" y="589" source="btn_zwyc2_png"/>
+</e:Skin>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pass1Skin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="zzzTween">
+			<tween:TweenItem target="{_img_z3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_img_z2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="500"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_img_z1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="bg_gamebg_png" x="0" y="0"/>
+	<e:Image id="_img_bear" source="teq_json.img_bear_2" bottom="183" horizontalCenter="-298.5"/>
+	<e:Image source="teq_json.word_f" x="856" y="178"/>
+	<e:Group id="_group_draw" left="0" top="0" right="0" bottom="0">
+	</e:Group>
+	<e:Image source="teq_json.mask_f" x="830" y="157"/>
+	<e:Group id="_group_z" width="200" height="200" x="331" y="180">
+		<e:Image id="_img_z1" source="teq_json.img_z1" x="119" y="25" scaleX="1" scaleY="1"/>
+		<e:Image id="_img_z2" source="teq_json.img_z2" x="80" y="98" scaleX="1" scaleY="1"/>
+		<e:Image id="_img_z3" source="teq_json.img_z3" x="37.5" y="159" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_group_btn" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" bottom="0" right="0">
+	</e:Group>
+	<e:Image id="_btn_penguin" source="teq_json.img_penguin_3" x="926" y="612" anchorOffsetX="35.5" anchorOffsetY="75"/>
+	<ns1:UIArrow id="_UIArrow" x="1031.5" y="622" skinName="arrowsSKin" skewX="180" skewY="180"/>
+	<e:Group id="_group_move" left="0" top="0" right="0" bottom="0" visible="false"/>
+	<e:Image source="btn_home_png" x="48" y="29" id="_btn_home"/>
+	
+</e:Skin>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pass2_1Skin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="actFTween">
+			<tween:TweenItem target="{_img_guang_f}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0.6}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{0.6}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{0.6}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{0.6}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{0.6}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="actPTween">
+			<tween:TweenItem target="{_img_guang_p}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0.6}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0.6}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0.6}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0.6}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0.6}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="actPErrTween">
+			<tween:TweenItem target="{_img_p}">
+				<tween:Set/>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object rotation="{-10}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object rotation="{10}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="actFErrTween">
+			<tween:TweenItem target="{_img_f}">
+				<tween:Set/>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object rotation="{-10}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object rotation="{10}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object rotation="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="bg_gamebg_png" x="0" y="0"/>
+	<e:Image source="teqPass2_json.img_shadow3" x="527" y="492"/>
+	<e:Image source="teqPass2_json.img_shadow3" x="87" y="492"/>
+	<e:Image id="_img_guang_f" source="teqPass2_json.img_pass2_guang_f" x="544" y="144"/>
+	<e:Image id="_img_guang_p" source="teqPass2_json.img_pass2_guang_p" x="160" y="173"/>
+	<e:Image id="_img_p" source="teqPass2_json.img_pass2_word_p" x="275.5" y="562" anchorOffsetY="374" anchorOffsetX="140.5"/>
+	<e:Image id="_img_f" source="teqPass2_json.img_pass2_word_f" x="660.5" y="561" anchorOffsetX="118.5" anchorOffsetY="388"/>
+	<e:Image id="_img_bear" source="teqPass2_json.act_bear0" x="871" y="135"/>
+	<e:Group id="_rightF" width="297" height="445" x="446.5" y="130" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="_rightP" width="297" height="445" x="47.5" y="131" anchorOffsetX="0" anchorOffsetY="0">
+	</e:Group>
+	<e:Group id="_group_btn_p" width="287" height="428" x="117" y="141" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="_group_btn_f" width="287" height="428" x="515" y="141" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Rect width="650" height="86" x="340.5" y="636" ellipseWidth="50" fillColor="0x669933" alpha="0.44"/>
+	<e:Image id="_right0" source="teqPass2_json.img_read2" x="431" y="662" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="_right2" source="teqPass2_json.img_read2" x="578" y="662" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="_right4" source="teqPass2_json.img_read2" x="721" y="662" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="_right5" source="teqPass2_json.img_read2" x="796" y="662" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="_right1" source="teqPass2_json.img_read1" x="499" y="657" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="_right3" source="teqPass2_json.img_read1" x="646" y="657" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="_right6" source="teqPass2_json.img_read1" x="868" y="657" scaleX="0.5" scaleY="0.5"/>
+	<e:Image source="btn_home_png" x="48" y="29" id="_btn_home"/>
+</e:Skin>

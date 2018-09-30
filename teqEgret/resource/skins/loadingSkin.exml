@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="_topTween">
+			<tween:TweenItem target="{_img_top}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{_img_bottom}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{1200}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{408}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect fillColor="0xffffff" left="0" top="0" bottom="0" right="0"/>
+	<e:Image id="_img_top" source="teq_json.img_icon" x="660" y="233" anchorOffsetX="164" anchorOffsetY="164"/>
+	<e:Image id="_img_bottom" source="teq_json.img_title" x="431" y="408"/>
+</e:Skin>

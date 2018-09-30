@@ -1,0 +1,8 @@
+{"file":"gameover.png","frames":{
+"btn_fenx":{"x":371,"y":428,"w":300,"h":115,"offX":3,"offY":3,"sourceW":306,"sourceH":121},
+"btn_jxsk":{"x":674,"y":311,"w":300,"h":115,"offX":4,"offY":4,"sourceW":308,"sourceH":123},
+"btn_zwyc":{"x":371,"y":311,"w":301,"h":115,"offX":3,"offY":3,"sourceW":307,"sourceH":121},
+"img_people_gril":{"x":0,"y":0,"w":369,"h":493,"offX":0,"offY":0,"sourceW":369,"sourceH":493},
+"img_peopleF":{"x":581,"y":0,"w":181,"h":309,"offX":2,"offY":4,"sourceW":191,"sourceH":318},
+"img_peopleP":{"x":371,"y":0,"w":208,"h":298,"offX":0,"offY":4,"sourceW":212,"sourceH":307},
+"money_guang":{"x":764,"y":0,"w":136,"h":136,"offX":0,"offY":0,"sourceW":136,"sourceH":136}}}

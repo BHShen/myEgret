@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pass2_2Skin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_gamebg_png" x="0" y="0"/>
+	<e:Image id="_img_p" source="teqPass2_json.img_pass2_word_p" x="135" y="188"/>
+	<e:Image id="_img_f" source="teqPass2_json.img_pass2_word_f" x="524" y="173"/>
+	<e:Image source="teqPass2_json.act_bear0" x="871" y="135"/>
+	<e:Rect width="650" height="86" x="340.5" y="636" ellipseWidth="50" fillColor="0x669933" alpha="0.44"/>
+	<e:Image id="_right0" source="teqPass2_json.img_read2" x="431" y="662"/>
+	<e:Image id="_right2" source="teqPass2_json.img_read2" x="578" y="662"/>
+	<e:Image id="_right4" source="teqPass2_json.img_read2" x="721" y="662"/>
+	<e:Image id="_right5" source="teqPass2_json.img_read2" x="796.55" y="662"/>
+	<e:Image id="_right1" source="teqPass2_json.img_read1" x="499" y="657"/>
+	<e:Image id="_right3" source="teqPass2_json.img_read1" x="646.5" y="657"/>
+	<e:Image id="_right6" source="teqPass2_json.img_read1" x="868" y="657"/>
+	<e:Image source="btn_home_png" x="48" y="29" id="_btn_home"/>
+</e:Skin>
