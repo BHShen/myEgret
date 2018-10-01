@@ -184,14 +184,27 @@ class UIPass2_1 extends eui.Component{
     //答对了 调用下一个关卡
     private clickNewPass(){
         let self = this
-        let callfun = function(){
-            egret.Tween.removeTweens(self._right0)
-            self.rePlayBearAct()
+        let nPass = self.arrPass["pass" + this.passNum]
+         //正确
+        if(nPass != null && nPass[this.passPassNum + 1] == null )
+        {   
+           
+            this.passBarrier(this.passNum)
+            this.passNum = this.passNum + 1
+            this.passPassNum = 0
+            
+            let callfun = function(){
+                egret.Tween.removeTweens(self._right0)
+                self.playBearAct()
+            }
+            // egret.Tween.removeTweens(self._right0)
+            egret.Tween.get(self._right0).wait(1000).call(callfun)
+        }else{
+            this.passPassNum = this.passPassNum + 1
         }
-        // egret.Tween.removeTweens(self._right0)
-        egret.Tween.get(self._right0).wait(1000).call(callfun)
+        
     }
-    //答错了 调用下一个关卡
+    //答错了 重置当前关卡
     private clickReload(){
         let self = this
         let callfun = function(){
@@ -220,14 +233,7 @@ class UIPass2_1 extends eui.Component{
         if(nPass != null && nPass[this.passPassNum] != null ){
             let nPassPass = nPass[this.passPassNum] 
             if(nPassPass == 1){
-                //正确
-                if(nPass[this.passPassNum + 1] == null){
-                    this.passBarrier(this.passNum)
-                    this.passNum = this.passNum + 1
-                    this.passPassNum = 0
-                }else{
-                    this.passPassNum = this.passPassNum + 1
-                }
+                
 
                 // this.playBearAct()
                 this.hint = false
@@ -262,15 +268,7 @@ class UIPass2_1 extends eui.Component{
         if(nPass != null && nPass[this.passPassNum] != null ){
             let nPassPass = nPass[this.passPassNum] 
             if(nPassPass == 0){
-                //正确
-                if(nPass[this.passPassNum + 1] == null){
-                    this.passBarrier(this.passNum)
-                    this.passNum = this.passNum + 1
-                    this.passPassNum = 0
-                }else{
-                    
-                    this.passPassNum = this.passPassNum + 1
-                }
+                
 
                 // this.playBearAct()
                 this.hint = false

@@ -1,378 +1,378 @@
 {
-	"groups": [
+	"groups":[
 		{
-			"keys": "bg_gamebg_png,bg_loadingbg_png,bg_todo_bg_png,pass1_font_png,pass2_font_png",
-			"name": "preload"
+			"keys":"bg_gamebg_png,bg_loadingbg_png,bg_todo_bg_png,pass1_font_png,pass2_font_png",
+			"name":"preload"
 		},
 		{
-			"keys": "img_icon_png,img_title_png",
-			"name": "loading"
+			"keys":"img_icon_png,img_title_png",
+			"name":"loading"
 		},
 		{
-			"keys": "teq_json,gameover_m4a,xiaoZuoDUI_m4a,xingxinYX_m4a,miaoxieBG_m4a,xuancuo_m4a,sure_m4a,dadui_m4a,pass1Begin_mp3,pass1F_mp3,pass1P_mp3,bgM_mp3,note_json,img_arrows_png,btn_zwyc2_png,btn_home_png,img_title_p_png,img_title_f_png",
-			"name": "pass1"
+			"keys":"teq_json,gameover_m4a,xiaoZuoDUI_m4a,xingxinYX_m4a,miaoxieBG_m4a,xuancuo_m4a,sure_m4a,dadui_m4a,pass1Begin_mp3,pass1F_mp3,pass1P_mp3,bgM_mp3,note_json,img_arrows_png,btn_zwyc2_png,btn_home_png,img_title_p_png,img_title_f_png",
+			"name":"pass1"
 		},
 		{
-			"keys": "pass2Guruo_mp3,pass2GuQiang_mp3,teqPass2_json,actPass2_png,actPass2_json",
-			"name": "pass2"
+			"keys":"pass2Guruo_mp3,pass2GuQiang_mp3,teqPass2_json,actPass2_png,actPass2_json",
+			"name":"pass2"
 		},
 		{
-			"keys": "pass3Music_mp3,teqpass3_json,img_pass3_bg_png,bg_pass3_bg_png,act_json,act_png,pass3Begin_mp3",
-			"name": "pass3"
+			"keys":"pass3Music_mp3,teqpass3_json,img_pass3_bg_png,bg_pass3_bg_png,act_json,act_png,pass3Begin_mp3",
+			"name":"pass3"
 		},
 		{
-			"keys": "gameover_json,ALLGameOver_mp3",
-			"name": "gameover"
+			"keys":"gameover_json,ALLGameOver_mp3",
+			"name":"gameover"
 		}
 	],
-	"resources": [
+	"resources":[
 		{
-			"url": "assets/CheckBox/checkbox_select_disabled.png",
-			"type": "image",
-			"name": "checkbox_select_disabled_png"
+			"name":"checkbox_select_disabled_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_disabled.png?v=201810011015"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_select_down.png",
-			"type": "image",
-			"name": "checkbox_select_down_png"
+			"name":"checkbox_select_down_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_down.png?v=201810011015"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_select_up.png",
-			"type": "image",
-			"name": "checkbox_select_up_png"
+			"name":"checkbox_select_up_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_up.png?v=201810011015"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_unselect.png",
-			"type": "image",
-			"name": "checkbox_unselect_png"
+			"name":"checkbox_unselect_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_unselect.png?v=201810011015"
 		},
 		{
-			"url": "assets/ItemRenderer/selected.png",
-			"type": "image",
-			"name": "selected_png"
+			"name":"selected_png",
+			"type":"image",
+			"url":"assets/ItemRenderer/selected.png?v=201810011015"
 		},
 		{
-			"url": "assets/Panel/border.png",
-			"type": "image",
-			"name": "border_png"
+			"name":"border_png",
+			"type":"image",
+			"url":"assets/Panel/border.png?v=201810011015"
 		},
 		{
-			"url": "assets/Panel/header.png",
-			"type": "image",
-			"name": "header_png"
+			"name":"header_png",
+			"type":"image",
+			"url":"assets/Panel/header.png?v=201810011015"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_disabled.png",
-			"type": "image",
-			"name": "radiobutton_select_disabled_png"
+			"name":"radiobutton_select_disabled_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_disabled.png?v=201810011015"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_down.png",
-			"type": "image",
-			"name": "radiobutton_select_down_png"
+			"name":"radiobutton_select_down_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_down.png?v=201810011015"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_up.png",
-			"type": "image",
-			"name": "radiobutton_select_up_png"
+			"name":"radiobutton_select_up_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_up.png?v=201810011015"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_unselect.png",
-			"type": "image",
-			"name": "radiobutton_unselect_png"
+			"name":"radiobutton_unselect_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_unselect.png?v=201810011015"
 		},
 		{
-			"url": "assets/ScrollBar/roundthumb.png",
-			"type": "image",
-			"name": "roundthumb_png"
+			"name":"roundthumb_png",
+			"type":"image",
+			"url":"assets/ScrollBar/roundthumb.png?v=201810011015"
 		},
 		{
-			"url": "assets/Slider/thumb.png",
-			"type": "image",
-			"name": "thumb_png"
+			"name":"thumb_png",
+			"type":"image",
+			"url":"assets/Slider/thumb.png?v=201810011015"
 		},
 		{
-			"url": "assets/Slider/track.png",
-			"type": "image",
-			"name": "track_png"
+			"name":"track_png",
+			"type":"image",
+			"url":"assets/Slider/track.png?v=201810011015"
 		},
 		{
-			"url": "assets/Slider/tracklight.png",
-			"type": "image",
-			"name": "tracklight_png"
+			"name":"tracklight_png",
+			"type":"image",
+			"url":"assets/Slider/tracklight.png?v=201810011015"
 		},
 		{
-			"url": "assets/ToggleSwitch/handle.png",
-			"type": "image",
-			"name": "handle_png"
+			"name":"handle_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/handle.png?v=201810011015"
 		},
 		{
-			"url": "assets/ToggleSwitch/off.png",
-			"type": "image",
-			"name": "off_png"
+			"name":"off_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/off.png?v=201810011015"
 		},
 		{
-			"url": "assets/ToggleSwitch/on.png",
-			"type": "image",
-			"name": "on_png"
+			"name":"on_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/on.png?v=201810011015"
 		},
 		{
-			"url": "assets/Button/button_down.png",
-			"type": "image",
-			"name": "button_down_png"
+			"name":"button_down_png",
+			"type":"image",
+			"url":"assets/Button/button_down.png?v=201810011015"
 		},
 		{
-			"url": "assets/Button/button_up.png",
-			"type": "image",
-			"name": "button_up_png"
+			"name":"button_up_png",
+			"type":"image",
+			"url":"assets/Button/button_up.png?v=201810011015"
 		},
 		{
-			"url": "assets/ProgressBar/thumb_pb.png",
-			"type": "image",
-			"name": "thumb_pb_png"
+			"name":"thumb_pb_png",
+			"type":"image",
+			"url":"assets/ProgressBar/thumb_pb.png?v=201810011015"
 		},
 		{
-			"url": "assets/ProgressBar/track_pb.png",
-			"type": "image",
-			"name": "track_pb_png"
+			"name":"track_pb_png",
+			"type":"image",
+			"url":"assets/ProgressBar/track_pb.png?v=201810011015"
 		},
 		{
-			"url": "assets/ScrollBar/track_sb.png",
-			"type": "image",
-			"name": "track_sb_png"
+			"name":"track_sb_png",
+			"type":"image",
+			"url":"assets/ScrollBar/track_sb.png?v=201810011015"
 		},
 		{
-			"url": "assets/bg.jpg",
-			"type": "image",
-			"name": "bg_jpg"
+			"name":"bg_jpg",
+			"type":"image",
+			"url":"assets/bg.jpg?v=201810011015"
 		},
 		{
-			"url": "assets/egret_icon.png",
-			"type": "image",
-			"name": "egret_icon_png"
+			"name":"egret_icon_png",
+			"type":"image",
+			"url":"assets/egret_icon.png?v=201810011015"
 		},
 		{
-			"url": "config/description.json",
-			"type": "json",
-			"name": "description_json"
+			"name":"description_json",
+			"type":"json",
+			"url":"config/description.json?v=201810011015"
 		},
 		{
-			"url": "assets/game/teq.json",
-			"type": "sheet",
-			"name": "teq_json",
-			"subkeys": "box_close,box_open,btn_play,f444,img_balloon_1,img_balloon_2,img_balloon_3,img_bear_1,img_bear_2,img_do,img_eye,img_hand,img_icon,img_img1,img_img2,img_money,img_money_bg,img_penguin_1,img_penguin_2,img_penguin_3,img_reset,img_title,img_z1,img_z2,img_z3,mask_f,mask_p,title_loading,word_f,word_f2,word_f2_2,word_f3,word_p,word_p2,word_u"
+			"name":"teq_json",
+			"subkeys":"box_close,box_open,btn_play,f444,img_balloon_1,img_balloon_2,img_balloon_3,img_bear_1,img_bear_2,img_do,img_eye,img_hand,img_icon,img_img1,img_img2,img_money,img_money_bg,img_penguin_1,img_penguin_2,img_penguin_3,img_reset,img_title,img_z1,img_z2,img_z3,mask_f,mask_p,title_loading,word_f,word_f2,word_f2_2,word_f3,word_p,word_p2,word_u",
+			"type":"sheet",
+			"url":"assets/game/teq.json?v=201810011015"
 		},
 		{
-			"url": "assets/bg/bg_gamebg.png",
-			"type": "image",
-			"name": "bg_gamebg_png"
+			"name":"bg_gamebg_png",
+			"type":"image",
+			"url":"assets/bg/bg_gamebg.png?v=201810011015"
 		},
 		{
-			"url": "assets/bg/bg_loadingbg.png",
-			"type": "image",
-			"name": "bg_loadingbg_png"
+			"name":"bg_loadingbg_png",
+			"type":"image",
+			"url":"assets/bg/bg_loadingbg.png?v=201810011015"
 		},
 		{
-			"url": "assets/bg/bg_todo_bg.png",
-			"type": "image",
-			"name": "bg_todo_bg_png"
+			"name":"bg_todo_bg_png",
+			"type":"image",
+			"url":"assets/bg/bg_todo_bg.png?v=201810011015"
 		},
 		{
-			"url": "assets/loading/img_icon.png",
-			"type": "image",
-			"name": "img_icon_png"
+			"name":"img_icon_png",
+			"type":"image",
+			"url":"assets/loading/img_icon.png?v=201810011015"
 		},
 		{
-			"url": "assets/loading/img_title.png",
-			"type": "image",
-			"name": "img_title_png"
+			"name":"img_title_png",
+			"type":"image",
+			"url":"assets/loading/img_title.png?v=201810011015"
 		},
 		{
-			"url": "assets/music/dadui.m4a",
-			"type": "sound",
-			"name": "dadui_m4a",
-			"soundType": "effect"
+			"name":"dadui_m4a",
+			"soundType":"effect",
+			"type":"sound",
+			"url":"assets/music/dadui.m4a?v=201810011015"
 		},
 		{
-			"url": "assets/music/gameover.m4a",
-			"type": "sound",
-			"name": "gameover_m4a",
-			"soundType": "effect"
+			"name":"gameover_m4a",
+			"soundType":"effect",
+			"type":"sound",
+			"url":"assets/music/gameover.m4a?v=201810011015"
 		},
 		{
-			"url": "assets/music/miaoxieBG.m4a",
-			"type": "sound",
-			"name": "miaoxieBG_m4a",
-			"soundType": "music"
+			"name":"miaoxieBG_m4a",
+			"soundType":"music",
+			"type":"sound",
+			"url":"assets/music/miaoxieBG.m4a?v=201810011015"
 		},
 		{
-			"url": "assets/music/pass2GuQiang.mp3",
-			"type": "sound",
-			"name": "pass2GuQiang_mp3",
-			"soundType": "effect"
+			"name":"pass2GuQiang_mp3",
+			"soundType":"effect",
+			"type":"sound",
+			"url":"assets/music/pass2GuQiang.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/music/pass2Guruo.mp3",
-			"type": "sound",
-			"name": "pass2Guruo_mp3",
-			"soundType": "effect"
+			"name":"pass2Guruo_mp3",
+			"soundType":"effect",
+			"type":"sound",
+			"url":"assets/music/pass2Guruo.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/music/pass3Music.mp3",
-			"type": "sound",
-			"name": "pass3Music_mp3",
-			"soundType": "music"
+			"name":"pass3Music_mp3",
+			"soundType":"music",
+			"type":"sound",
+			"url":"assets/music/pass3Music.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/music/sure.m4a",
-			"type": "sound",
-			"name": "sure_m4a",
-			"soundType": "effect"
+			"name":"sure_m4a",
+			"soundType":"effect",
+			"type":"sound",
+			"url":"assets/music/sure.m4a?v=201810011015"
 		},
 		{
-			"url": "assets/music/xiaoZuoDUI.m4a",
-			"type": "sound",
-			"name": "xiaoZuoDUI_m4a",
-			"soundType": "effect"
+			"name":"xiaoZuoDUI_m4a",
+			"soundType":"effect",
+			"type":"sound",
+			"url":"assets/music/xiaoZuoDUI.m4a?v=201810011015"
 		},
 		{
-			"url": "assets/music/xingxinYX.m4a",
-			"type": "sound",
-			"name": "xingxinYX_m4a",
-			"soundType": "effect"
+			"name":"xingxinYX_m4a",
+			"soundType":"effect",
+			"type":"sound",
+			"url":"assets/music/xingxinYX.m4a?v=201810011015"
 		},
 		{
-			"url": "assets/music/xuancuo.m4a",
-			"type": "sound",
-			"name": "xuancuo_m4a",
-			"soundType": "effect"
+			"name":"xuancuo_m4a",
+			"soundType":"effect",
+			"type":"sound",
+			"url":"assets/music/xuancuo.m4a?v=201810011015"
 		},
 		{
-			"url": "assets/pass2/teqPass2.json",
-			"type": "sheet",
-			"name": "teqPass2_json",
-			"subkeys": "act_bear0,act_bear1,act_bear2,act_qe0,act_qe1,img_pass2_anger_f,img_pass2_anger_p,img_pass2_box,img_pass2_box1,img_pass2_guang_f,img_pass2_guang_p,img_pass2_word_f,img_pass2_word_p,img_read1,img_read1_over,img_read2,img_read2_over,img_shadow1,img_shadow2,img_shadow3"
+			"name":"teqPass2_json",
+			"subkeys":"act_bear0,act_bear1,act_bear2,act_qe0,act_qe1,img_pass2_anger_f,img_pass2_anger_p,img_pass2_box,img_pass2_box1,img_pass2_guang_f,img_pass2_guang_p,img_pass2_word_f,img_pass2_word_p,img_read1,img_read1_over,img_read2,img_read2_over,img_shadow1,img_shadow2,img_shadow3",
+			"type":"sheet",
+			"url":"assets/pass2/teqPass2.json?v=201810011015"
 		},
 		{
-			"url": "assets/bg/pass1_font.png",
-			"type": "image",
-			"name": "pass1_font_png"
+			"name":"pass1_font_png",
+			"type":"image",
+			"url":"assets/bg/pass1_font.png?v=201810011015"
 		},
 		{
-			"url": "assets/bg/pass2_font.png",
-			"type": "image",
-			"name": "pass2_font_png"
+			"name":"pass2_font_png",
+			"type":"image",
+			"url":"assets/bg/pass2_font.png?v=201810011015"
 		},
 		{
-			"url": "assets/pass3/teqpass3.json",
-			"type": "sheet",
-			"name": "teqpass3_json",
-			"subkeys": "act_pass3_F_1,act_pass3_F_2,act_pass3_F_3,act_pass3_F_4,act_pass3_P_1,act_pass3_P_2,act_pass3_P_3,act_pass3_qe0,act_pass3_qe1,act_pass3_qe2,act_pass3_qe3,act_peopleF,act_peopleP,btn_err,btn_pass3_f_down,btn_pass3_f_up,btn_pass3_p_down,btn_pass3_p_up,img_f_nod1,img_f_nod2,img_p_nod1,img_p_nod2,img_pass3_f_err,img_pass3_f_play,img_pass3_f_ready,img_pass3_hand,img_pass3_p_err,img_pass3_p_play,img_pass3_p_ready,img_pass3_qe_bg,img_wtF0,img_wtF1,img_wtP0,img_wtP1"
+			"name":"teqpass3_json",
+			"subkeys":"act_pass3_F_1,act_pass3_F_2,act_pass3_F_3,act_pass3_F_4,act_pass3_P_1,act_pass3_P_2,act_pass3_P_3,act_pass3_qe0,act_pass3_qe1,act_pass3_qe2,act_pass3_qe3,act_peopleF,act_peopleP,btn_err,btn_pass3_f_down,btn_pass3_f_up,btn_pass3_p_down,btn_pass3_p_up,img_f_nod1,img_f_nod2,img_p_nod1,img_p_nod2,img_pass3_f_err,img_pass3_f_play,img_pass3_f_ready,img_pass3_hand,img_pass3_p_err,img_pass3_p_play,img_pass3_p_ready,img_pass3_qe_bg,img_wtF0,img_wtF1,img_wtP0,img_wtP1",
+			"type":"sheet",
+			"url":"assets/pass3/teqpass3.json?v=201810011015"
 		},
 		{
-			"url": "assets/bg/bg_pass3_bg.png",
-			"type": "image",
-			"name": "bg_pass3_bg_png"
+			"name":"bg_pass3_bg_png",
+			"type":"image",
+			"url":"assets/bg/bg_pass3_bg.png?v=201810011015"
 		},
 		{
-			"url": "assets/bg/img_pass3_bg.png",
-			"type": "image",
-			"name": "img_pass3_bg_png"
+			"name":"img_pass3_bg_png",
+			"type":"image",
+			"url":"assets/bg/img_pass3_bg.png?v=201810011015"
 		},
 		{
-			"url": "assets/test/pass3TTT.png",
-			"type": "image",
-			"name": "pass3TTT_png"
+			"name":"pass3TTT_png",
+			"type":"image",
+			"url":"assets/test/pass3TTT.png?v=201810011015"
 		},
 		{
-			"url": "assets/gameOver/gameover.json",
-			"type": "sheet",
-			"name": "gameover_json",
-			"subkeys": "btn_fenx,btn_jxsk,btn_zwyc,img_peopleF,img_peopleP,img_people_gril,money_guang"
+			"name":"gameover_json",
+			"subkeys":"btn_fenx,btn_jxsk,btn_zwyc,img_peopleF,img_peopleP,img_people_gril,money_guang",
+			"type":"sheet",
+			"url":"assets/gameOver/gameover.json?v=201810011015"
 		},
 		{
-			"url": "assets/act/act.png",
-			"type": "image",
-			"name": "act_png"
+			"name":"act_png",
+			"type":"image",
+			"url":"assets/act/act.png?v=201810011015"
 		},
 		{
-			"url": "assets/act/act.json",
-			"type": "json",
-			"name": "act_json"
+			"name":"act_json",
+			"type":"json",
+			"url":"assets/act/act.json?v=201810011015"
 		},
 		{
-			"url": "assets/music/ALLGameOver.mp3",
-			"type": "sound",
-			"name": "ALLGameOver_mp3",
-			"soundType": "music"
+			"name":"ALLGameOver_mp3",
+			"soundType":"music",
+			"type":"sound",
+			"url":"assets/music/ALLGameOver.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/music/bgM.mp3",
-			"type": "sound",
-			"name": "bgM_mp3",
-			"soundType": "music"
+			"name":"bgM_mp3",
+			"soundType":"music",
+			"type":"sound",
+			"url":"assets/music/bgM.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/music/pass1Begin.mp3",
-			"type": "sound",
-			"name": "pass1Begin_mp3",
-			"soundType": "music"
+			"name":"pass1Begin_mp3",
+			"soundType":"music",
+			"type":"sound",
+			"url":"assets/music/pass1Begin.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/music/pass1F.mp3",
-			"type": "sound",
-			"name": "pass1F_mp3"
+			"name":"pass1F_mp3",
+			"type":"sound",
+			"url":"assets/music/pass1F.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/music/pass1P.mp3",
-			"type": "sound",
-			"name": "pass1P_mp3"
+			"name":"pass1P_mp3",
+			"type":"sound",
+			"url":"assets/music/pass1P.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/music/pass3Begin.mp3",
-			"type": "sound",
-			"name": "pass3Begin_mp3"
+			"name":"pass3Begin_mp3",
+			"type":"sound",
+			"url":"assets/music/pass3Begin.mp3?v=201810011015"
 		},
 		{
-			"url": "assets/act/actPass2.png",
-			"type": "image",
-			"name": "actPass2_png"
+			"name":"actPass2_png",
+			"type":"image",
+			"url":"assets/act/actPass2.png?v=201810011015"
 		},
 		{
-			"url": "assets/act/actPass2.json",
-			"type": "json",
-			"name": "actPass2_json"
+			"name":"actPass2_json",
+			"type":"json",
+			"url":"assets/act/actPass2.json?v=201810011015"
 		},
 		{
-			"url": "assets/game/note.json",
-			"type": "sheet",
-			"name": "note_json",
-			"subkeys": "note0,note1,note2,note3,note4,note5,note6,note7"
+			"name":"note_json",
+			"subkeys":"note0,note1,note2,note3,note4,note5,note6,note7",
+			"type":"sheet",
+			"url":"assets/game/note.json?v=201810011015"
 		},
 		{
-			"url": "assets/game/img_arrows.png",
-			"type": "image",
-			"name": "img_arrows_png"
+			"name":"img_arrows_png",
+			"type":"image",
+			"url":"assets/game/img_arrows.png?v=201810011015"
 		},
 		{
-			"url": "assets/game/btn_home.png",
-			"type": "image",
-			"name": "btn_home_png"
+			"name":"btn_home_png",
+			"type":"image",
+			"url":"assets/game/btn_home.png?v=201810011015"
 		},
 		{
-			"url": "assets/game/btn_zwyc2.png",
-			"type": "image",
-			"name": "btn_zwyc2_png"
+			"name":"btn_zwyc2_png",
+			"type":"image",
+			"url":"assets/game/btn_zwyc2.png?v=201810011015"
 		},
 		{
-			"url": "assets/game/img_title_f.png",
-			"type": "image",
-			"name": "img_title_f_png"
+			"name":"img_title_f_png",
+			"type":"image",
+			"url":"assets/game/img_title_f.png?v=201810011015"
 		},
 		{
-			"url": "assets/game/img_title_p.png",
-			"type": "image",
-			"name": "img_title_p_png"
+			"name":"img_title_p_png",
+			"type":"image",
+			"url":"assets/game/img_title_p.png?v=201810011015"
 		}
 	]
 }

@@ -39,9 +39,13 @@ class UIPass3GameOver extends eui.Component{
             this._money4.visible = false
         }
 
-        // ToolSound.ins.playMusic("xiaoZuoDUI_m4a")
-        ToolSound.ins.playEffect("xingxinYX_m4a")
-        this.moneyTween.play(0)
+
+        ToolSound.ins.stopEffect()
+        egret.Tween.get(self).wait(500).call(()=>{
+            egret.Tween.removeTweens(self)
+            ToolSound.ins.playEffect("xingxinYX_m4a")
+            this.moneyTween.play(0)
+        })
         
     }
 

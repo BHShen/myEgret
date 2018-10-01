@@ -20,21 +20,28 @@ class UIClosePass extends eui.Component{
     }
 
     public refresh(){
-        this._money2.visible = true;
-        this._money5.visible = true
-        this._money1.visible = true;
-        this._money4.visible = true
-        this._money0.visible = true;
-        this._money3.visible = true
+        let self = this
+        self._money2.visible = true;
+        self._money5.visible = true
+        self._money1.visible = true;
+        self._money4.visible = true
+        self._money0.visible = true;
+        self._money3.visible = true
         // ToolSound.ins.stopMusic()
         
         if(gamedata.ins.interruptNum > 4 ){
-            this._money2.visible = false;
-            this._money5.visible = false
+            self._money2.visible = false;
+            self._money5.visible = false
         }
         // ToolSound.ins.playMusic("xiaoZuoDUI_m4a")
-        ToolSound.ins.playEffect("xingxinYX_m4a")
-        this.moneyTween.play(0)
+        ToolSound.ins.stopEffect()
+        egret.Tween.get(self).wait(500).call(()=>{
+            egret.Tween.removeTweens(self)
+            ToolSound.ins.playEffect("xingxinYX_m4a")
+            this.moneyTween.play(0)
+        })
+        
+        
         
     }
 

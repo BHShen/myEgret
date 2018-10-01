@@ -71,7 +71,7 @@
 	<e:Image source="teq_json.mask_p" x="784.5" y="175"/>
 	<e:Group id="_group_btn" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" bottom="0" right="0">
 	</e:Group>
-	<e:Image id="_btn_penguin" source="teq_json.img_penguin_3" x="952.5" y="282" anchorOffsetX="35.5" anchorOffsetY="75"/>
-	<ns1:UIArrow id="_UIArrow" x="1016" y="351" skinName="arrowsSKin" skewX="225" skewY="225"/>
+	<e:Image id="_btn_penguin" source="teq_json.img_penguin_3" x="840" y="352" anchorOffsetX="35.5" anchorOffsetY="75"/>
+	<ns1:UIArrow id="_UIArrow" x="783" y="394" skinName="arrowsSKin" skewX="315" skewY="315"/>
 	<e:Image source="btn_home_png" x="48" y="29" id="_btn_home"/>
 </e:Skin>

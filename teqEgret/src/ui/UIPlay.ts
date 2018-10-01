@@ -50,17 +50,20 @@ class UIPlay extends eui.Component{
         // window["removeembed"]()
         ToolSound.ins.playMusic("miaoxieBG_m4a",0)
         // 测试
-        // UIPass2_0.ins.show()
         // UIPass1_0.ins.show()
         // UIPass1.ins.show()
         // UIPass1_2.ins.show()
-        // UIPass2_1.ins.show()
-        // UIPass2_1.ins.show()
-        // UIPass3_0.ins.show()
-        // UIGameOver1.ins.show()
         // UIClosePass.ins.show()
+
+        // UIPass2_0.ins.show()
+        UIPass2_1.ins.show()
+        
+        // UIPass3_0.ins.show()
+
+        // UIGameOver1.ins.show()
+        
         //正常开始
-        UIPass1_0.ins.show()
+        // UIPass1_0.ins.show()
     }
 
     private clean(){

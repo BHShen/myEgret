@@ -170,10 +170,15 @@ class UIPass1_2 extends eui.Component{
             this._UIArrow.x = this._btn_penguin.x - 10
             this._UIArrow.y = this._btn_penguin.y + 57
         }else if(this.playNum == 3){
-            this._UIArrow.skewX = 0
-            this._UIArrow.skewY = 0
-            this._UIArrow.x = this._btn_penguin.x - 86
-            this._UIArrow.y = this._btn_penguin.y - 22
+            this._UIArrow.skewX = 315
+            this._UIArrow.skewY = 315
+            this._UIArrow.x = this._btn_penguin.x - 57
+            this._UIArrow.y = this._btn_penguin.y + 42
+        }else if(this.playNum == 4){
+            this._UIArrow.skewX = 315
+            this._UIArrow.skewY = 315
+            this._UIArrow.x = this._btn_penguin.x - 57
+            this._UIArrow.y = this._btn_penguin.y + 42
         }else{
             this._UIArrow.skewX = 0
             this._UIArrow.skewY = 0
@@ -193,7 +198,7 @@ class UIPass1_2 extends eui.Component{
         let flag = false
         let back = false 
         //y==y0+sqrt(r*r-(x-x0)*(x-x0))或y==y0-sqrt(r*r-(x-x0)*(x-x0))
-        if(this.playNum <= 0 && (nNewX > 841 && nNewX < 907)){
+        if(this.playNum <= 0 && (nNewX > 841 ) && (nNewY >= 226 && nNewY < 233) ){
             this.playNum = 0
             // 到点1 
             if(nNewX < nOldX){
@@ -206,58 +211,81 @@ class UIPass1_2 extends eui.Component{
             }
 
             // this._label.text = "first nNewX = " + nNewX + "nNewY = " + nNewY;;
-            console.log("first")
-        }else if(this.playNum <= 1 && (nNewX > 907 && nNewX <= 957)){
+            console.log("first this.playNum = " + this.playNum + " nNewX = " + nNewX + "nNewY = " + nNewY)
+        }else if(this.playNum >= 0 && this.playNum <= 1 && (nNewY >= 233 && nNewY < 270) && (nNewX >= 907 ) ){
             this.playNum = 1
-            // 点2 
+            // 点2
+
             if(nNewX < nOldX){
                 return
             }
-            
-            nNewY = nOldY + (nNewX - nOldX) * 0.933
+            nNewY = nOldY + (nNewX - nOldX) * 0.60
             if(nNewY > this._btn_penguin.y){
                 this._btn_penguin.y = nNewY
             }
-            // this._label.text = "second nNewX = " + nNewX + "nNewY = " + nNewY;;
-            console.log("second")
-        }else if(this.playNum >= 1 && this.playNum <= 2 && (nNewY >= 270 && nNewY < 327) ){
+            // this._btn_penguin.y = nNewY
+            // nNewX = nOldX - (nNewY - nOldY) * 0.55
+            // if(nNewX < nOldX) return
+            // back = true
+            // this._label.text = "three nNewX = " + nNewX + "nNewY = " + nNewY;;
+            console.log("second this.playNum = " + this.playNum + " nNewX = " + nNewX + "nNewY = " + nNewY)
+        }else if(this.playNum >= 1 && this.playNum <= 2 && (nNewY >= 270 && nNewY < 313) && (nNewX >= 945 )){
             this.playNum = 2
             // 点3
+            
+            
+            
+            nNewY = nOldY + (nOldX - nNewX) * 0.326
+            if(nNewY > this._btn_penguin.y){
+                this._btn_penguin.y = nNewY
+            }
+            nNewX = 945
+            // this._label.text = "fore nNewX = " + nNewX + "nNewY = " + nNewY;;
+            console.log("three this.playNum = " + this.playNum + " nNewX = " + nNewX + "nNewY = " + nNewY)
+        }else if(this.playNum >= 2 && this.playNum <= 3 && (nNewY >= 313 && nNewY < 337) && (nNewX >= 945 )){
+            this.playNum = 3
+             // 点4
             if(nNewY < nOldY){
                 return
             }
             this._btn_penguin.y = nNewY
-            nNewX = nOldX - (nNewY - nOldY) * 0.146
-            if(nNewX < nOldX) return
-            // back = true
-            // this._label.text = "three nNewX = " + nNewX + "nNewY = " + nNewY;;
-            console.log("three")
-        }else if(this.playNum >= 2 && this.playNum <= 3 && (nNewX > 915)){
-            this.playNum = 3
-            // 点4
-            if(nNewX > nOldX){
-                return
-            }
-            
-            nNewY = nOldY + (nOldX - nNewX) * 0.55
-            if(nNewY > this._btn_penguin.y){
-                this._btn_penguin.y = nNewY
-            }
-            // this._label.text = "fore nNewX = " + nNewX + "nNewY = " + nNewY;;
-            console.log("fore")
-        }else if(this.playNum >= 3 && this.playNum <= 4 && (nNewX > 838)){
-            this.playNum = 4
-             // 点5
-            if(nNewX > nOldX){
-                return
-            }
-            
-            nNewY = nOldY + (nOldX - nNewX) * 0.5
-            if(nNewY > this._btn_penguin.y){
-                this._btn_penguin.y = nNewY
-            }
+            nNewX = nOldX + (nOldY - nNewY) * 0.12
+            // nNewY = nOldY + (nNewX - nOldX) * 0.736
+            // if(nNewY > this._btn_penguin.y){
+            //     this._btn_penguin.y = nNewY
+            // }
             // this._label.text = "five nNewX = " + nNewX + "nNewY = " + nNewY;
-            console.log("five")
+            console.log("fore this.playNum = " + this.playNum + " nNewX = " + nNewX + "nNewY = " + nNewY)
+
+        }else if(this.playNum >= 3 && this.playNum <= 4 && (nNewY >= 337 && nNewY < 352) && (nNewX >= 873 )){
+            this.playNum = 4
+             // 点4
+            if(nNewY < nOldY){
+                return
+            }
+            this._btn_penguin.y = nNewY
+            nNewX = nOldX + (nOldY - nNewY) * 0.6
+            // nNewY = nOldY + (nNewX - nOldX) * 0.736
+            // if(nNewY > this._btn_penguin.y){
+            //     this._btn_penguin.y = nNewY
+            // }
+            // this._label.text = "five nNewX = " + nNewX + "nNewY = " + nNewY;
+            console.log("five this.playNum = " + this.playNum + " nNewX = " + nNewX + "nNewY = " + nNewY)
+
+        }else if(this.playNum >= 4 && this.playNum <= 5 && (nNewY >= 352) && (nNewX >= 838 )){
+            this.playNum = 5
+             // 点4
+            // if(nNewY < nOldY){
+            //     return
+            // }
+            this._btn_penguin.y = 352
+            // nNewX = nOldX + (nOldY - nNewY) * 0.6
+            // nNewY = nOldY + (nNewX - nOldX) * 0.736
+            // if(nNewY > this._btn_penguin.y){
+            //     this._btn_penguin.y = nNewY
+            // }
+            // this._label.text = "five nNewX = " + nNewX + "nNewY = " + nNewY;
+            console.log("six this.playNum = " + this.playNum + " nNewX = " + nNewX + "nNewY = " + nNewY)
 
         }else{
             // this._label.text = "return nNewX = " + nNewX + "nNewY = " + nNewY;

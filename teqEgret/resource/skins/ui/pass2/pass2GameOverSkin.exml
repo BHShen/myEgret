@@ -54,6 +54,6 @@
 		<e:Image id="_money3" source="teq_json.img_money" x="535" y="626" scaleX="1" scaleY="1"/>
 		<e:Image id="_money4" source="teq_json.img_money" x="643" y="626" scaleX="1" scaleY="1"/>
 		<e:Image id="_money5" source="teq_json.img_money" x="751" y="626" scaleX="1" scaleY="1"/>
-		<e:Image id="_img_box" x="963" y="0" scaleX="1" scaleY="1" source="teqPass2_json.img_pass2_box"/>
+		<e:Image id="_img_box" x="963" y="0" scaleX="0.5" scaleY="0.5" source="teqPass2_json.img_pass2_box"/>
 	</e:Group>
 </e:Skin>
